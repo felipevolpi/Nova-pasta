@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+:root {
+    --cor0: #8E56A6;
+    --cor1: #17BFA0;
+    --cor2: #4465A6;
+    --cor3: #E6F2F8;
+    --cor4: #FFDC98;
+    --cor5: #3C549A;
+    --cor6: #273A72;
+    --cor7: #D74681;
+    --cor8: #30BAE7;
+    --font-regular: 'Titillium Web', 'Arial';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-regular);
+}
+
+.header {
+    display: flex;
+    background-color: var(--cor0);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    font-size: 1.2em;
+    font-family: var(--font-regular);
+    margin-bottom: -10px;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.bg-color {
+    width: 1024px;
+    margin: 0 auto;
+    margin: 0 auto 0 auto;
+    padding: 50px 0px;
+}
+
+.section-1 {
+    min-height: 480px;
+    color: white;
+    background: var(--cor0);
+}
+
+.section-1 h2 {
+    font-size: 42px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section-1 a {
+    height: 50px;
+    width: 100px;
+    font-family: var(--font-regular);
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 0 0 rgb(255, 100, 73);
+}
+
+.section-2 {
+    background-color: var(--cor1);
+    color: white;
+}
+
+.section-2 .section-title {
+    text-align: center;
+}
+
+.section-2 .services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 .services .pg-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 .services .pg-1 img {
+    text-align: center;
+    width: 102px;
+    align-self: center;
+}
+
+.section-2 .services .pg-1 h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-2 .services .pg-1 p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.section-3 {
+    background-color: var(--cor3);
+}
+
+.section-4 {
+    background-color: white;
+}
+
+.section-5 {
+    background-color: var(--cor4);
+}
+
+.section-6 {
+    background-color: var(--cor7);
+}
+
+.section-7 {
+    background-color: var(--cor5);
+}
