@@ -94,7 +94,7 @@
     background-color: var(--cor1);
     color: white;
     height: 130vh;
-    
+    width: 100%;
      
 }
 /* Texto em cima*/
@@ -152,7 +152,7 @@
     background-color: var(--cor3);
     color: rgba(34, 33, 33, 0.822);
     height: 130vh;
-    
+    width: 100%;
      
 }
 /* Texto em cima*/
@@ -160,17 +160,7 @@
     padding: 100px 0px 50px 0px;
     text-align: center;
     max-width: 1170px;
-    margin: auto;
-    
-}
-/* Contender */
-
-.flex-container-3 {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    max-width: 1170px;
-    margin: auto;   
+    margin: auto;  
 }
 .section-title-3 h3 {
     padding: 20px 0px 10px 0px;
@@ -189,6 +179,14 @@
 .section-title-3 p {
     padding-top: 10px;
 }
+/* Contender */
+.flex-container-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    max-width: 1170px;
+    margin: auto;   
+}
 
 /*Circulos dentro*/
 
@@ -203,7 +201,10 @@
 
 .section-4 {
     background-color: white;
-    height: 100vh;
+    height: 120vh;
+    color: rgba(34, 33, 33, 0.849);
+    width: 100%;
+
     
 }
 
@@ -213,47 +214,173 @@
     justify-content: space-around;
     max-width: 1170px;
     margin: auto;
+    padding-top: 50px;
+}
+.flex-container-4 h3 { 
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
+.section-title-4 hr{ 
+    margin: auto;
+    border: 0px;
+    border-bottom: 4px solid rgba(34, 33, 33, 0.603);
+    border-radius: 5px;
+    max-width: 60px;
+
 }
 .section-title-4 h3 {
+    font-size: 32px;
     text-align: center;
-    padding: 50px;
+    padding: 100px 0px 20px 0px;
     letter-spacing: 3px;
-
+    
 }
 .section-title-4 p {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 20px 0px 50px 0px;
+    
 }
 /*BLOCO 5*/
 /*fundo */
 .section-5 {
     background-color: var(--cor4);
-    height: 130vh;
+    min-height: 130vh;
+    padding-bottom: 100px;
+    width: 100%;
 }
 /*texto*/
 .section-title-5 {
     padding: 50px;
     text-align: center;
+    
 }
+.section-title-5 h3 { 
+    font-size: 32px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+
+}
+.section-title-5 p {
+    padding-top: 10px;
+}
+.section-title-5 hr {
+    margin: auto;
+    border: 0px;
+    border-bottom: 4px solid #ceb279d0;
+    border-radius: 5px;
+    max-width: 60px;
+    
+}
+/*BOXES */
 .flex-container-5 {
-    display: flex;
-   justify-content: space-around;
-   flex-direction: column;
-   flex-wrap: wrap;
-   margin: auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;   
    max-width: 1170px;
-   max-height: 130vh;
+   margin: auto;
    
 }    
     
 .flex-container-5 .item{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px; 
+    
+    
 }
-.section-6 {
-    background-color: var(--cor7);
+.flex-container-5 .item img{ 
+    width: 100%;
+    
 }
 
+.flex-container-5 div p {    
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+/*BLOCO 6*/
+.section-6 {
+    height: 130vh;
+    background-color: var(--cor7);
+    color: white;
+}
+
+/* Texto em cima*/
+.section-title-6 {
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+    max-width: 1170px;
+    margin: auto;
+    
+}
+.section-title-6 h3 {
+    padding: 20px 0px 10px 0px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.section-title-6 hr {  
+    margin: auto;
+    border: 0px;
+    border-bottom: 4px solid #8f2e5593;
+    border-radius: 5px;
+    max-width: 60px;
+}
+.section-title-6 p {
+    padding-top: 10px;
+}
+/*BLOCO 7*/
 .section-7 {
     background-color: var(--cor5);
+    height: 130vh;
+    color: white;
+}
+/* Texto em cima*/
+.section-title-7 {
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+    max-width: 1170px;
+    margin: auto;
+    
+}
+.section-title-7 h3 {
+    padding: 20px 0px 10px 0px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.section-title-7 hr {  
+    margin: auto;
+    border: 0px;
+    border-bottom: 4px solid #273a729a;
+    border-radius: 5px;
+    max-width: 60px;
+}
+.section-title-7 p {
+    padding-top: 10px;
+}
+/*Rodapé*/
+footer {
+    background-color: var(--cor6);
+    height: 10vh;
+    width: 100%;
+}
+.footer ul {
+     display: flex;
+     justify-content:center;
+     align-items: center;
+    
+}
+.footer li { 
+    margin: 20px;
+}
+.footer a {
+    font-family: var(--font-regular);
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.footer a:hover { 
+    color: var(--cor1);
 }
