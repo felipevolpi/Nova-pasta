@@ -151,7 +151,7 @@
 .section-3 {
     background-color: var(--cor3);
     color: rgba(34, 33, 33, 0.822);
-    height: 130vh;
+    height: 160vh;
     width: 100%;
      
 }
@@ -172,12 +172,13 @@
 .section-title-3 hr {  
     margin: auto;
     border: 0px;
-    border-bottom: 4px solid rgba(34, 33, 33, 0.822);
+    border-bottom: 4px solid rgba(34, 33, 33, 0.438);
     border-radius: 5px;
     max-width: 60px;
 }
 .section-title-3 p {
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 /* Contender */
 .flex-container-3 {
@@ -195,8 +196,22 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-left: 20px;
  }
-
+.green-title { 
+    text-align: center;
+    color: var(--cor1);
+    margin: 10px 0px;
+}
+.social-midia{
+    display: flex;
+    justify-content: center;
+    margin: 10px -20px;
+    padding: 0px;
+}
+.social-midia img {
+    padding: 0px;
+}
 /*BLOCO 4*/
 
 .section-4 {
@@ -247,6 +262,7 @@
 .section-5 {
     background-color: var(--cor4);
     min-height: 130vh;
+    padding-top: 50px;
     padding-bottom: 100px;
     width: 100%;
 }
@@ -268,10 +284,29 @@
 .section-title-5 hr {
     margin: auto;
     border: 0px;
-    border-bottom: 4px solid #ceb279d0;
+    border-bottom: 4px solid #ddbf82d0;
     border-radius: 5px;
     max-width: 60px;
     
+}
+/*menu*/
+.menu-portifolio {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}  
+
+.menu-portifolio li {
+    background-color: #ddbf82d0;
+    margin: 3px;
+    padding: 3px 15px;
+    border-radius: 3px;
+    
+}
+.menu-portifolio li:hover {
+    background-color: white;
 }
 /*BOXES */
 .flex-container-5 {
@@ -297,6 +332,23 @@
     text-align: center;
     padding-left: 10px;
     margin-left: 40px;
+}
+.project-button {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    margin-left: 20px;
+}
+.projects {
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;    
+    border-radius: 3px;
+    padding: 15px 50px;
+    max-width: 150px;
+    background-color: #16c4a4;
+    box-shadow: 0 4px 0 0 #138a74;
 }
 /*BLOCO 6*/
 .section-6 {
@@ -331,8 +383,9 @@
 }
 /*BLOCO 7*/
 .section-7 {
+    
     background-color: var(--cor5);
-    height: 130vh;
+    height: 120vh;
     color: white;
 }
 /* Texto em cima*/
@@ -358,6 +411,38 @@
 }
 .section-title-7 p {
     padding-top: 10px;
+}
+/*caixa de mensagem*/
+
+.flex-container-7{
+    display: flex;
+    margin: auto;
+    background-color: yellow;
+    max-width: 60%;
+    height: 300px;
+    margin-bottom: 50px;
+    flex-flow: 1 ;
+}
+.flex-container-7 .item {
+    background-color: var(--cor2);
+    border-radius: 3px;
+    
+
+}
+.send-message{
+    display: flex;
+    justify-content: center;
+}
+.section-7 a {
+    
+    color: white;
+    font-size: 14px;
+    font-weight: 600;    
+    border-radius: 3px;
+    padding: 15px 50px;
+    max-width: 150px;
+    background-color: #30BAE7;
+    box-shadow: 0 4px 0 0 #2494b9;
 }
 /*Rodapé*/
 footer {
